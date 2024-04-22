@@ -1,0 +1,59 @@
+header {
+	background-color: lightsteelblue;
+}
+
+h1 {
+	color: slategray;
+	text-align: center;
+}
+
+.c1 {
+	color: white;
+}
+
+article {
+	background-color: aliceblue;
+}
+
+h2 {
+	
+	color: cornflowerblue;
+	text-align: center;
+}
+
+.c2 {
+	color: gray;
+	text-align: center;
+}
+
+section {
+	display: flex;
+	align-items: flex-start;
+	word-break: keep-all;
+	border: 2px dotted silver;
+	margin-bottom: 10px;
+	line-height: 28px;
+}
+
+h3 {
+	color: dimgray;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	letter-spacing: 3px;
+}
+
+img {
+	width: 350px;
+}
+
+header,
+article,
+section {
+	border-radius: 20px;
+	padding: 10px;
+}
+
+p,
+img {
+	padding: 5px;
+}
