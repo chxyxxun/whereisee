@@ -42,3 +42,17 @@ li {
 	height: 180px;
 	border-radius: 100px;
 }
+
+@media screen and (max-width: 900px) {
+	.w1 {
+		left: 160px;
+		width: 100px;
+		height: 100px;
+	}
+	.w2 {
+		top: 340px;
+		left: 160px;
+		width: 160px;
+		height: 160px;
+		}
+}
