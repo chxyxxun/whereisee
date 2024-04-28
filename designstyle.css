@@ -58,18 +58,3 @@ p,
 img {
 	margin: 20px;
 }
-
-@media screen and (max-width: 900px) {
-	img {
-		width: 320px;
-		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
-	section {
-		display: block;
-	}
-	h3 {
-		writing-mode: horizontal-tb;
-	}
-}
