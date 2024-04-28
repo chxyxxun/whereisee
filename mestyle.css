@@ -60,6 +60,6 @@ img {
 
 @media screen and (max-width: 600px) {
 	img {
-		width: 200px;
+		width: 150px;
 	}
 }
