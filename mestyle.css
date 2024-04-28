@@ -57,3 +57,9 @@ p,
 img {
 	padding: 5px;
 }
+
+@media screen and (max-width: 350px) {
+	img {
+		width: 200px;
+	}
+}
