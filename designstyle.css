@@ -1,9 +1,9 @@
 header {
-	background-color: darkseagreen;
+	background-color: lightsteelblue;
 }
 
 h1 {
-	color: seagreen;
+	color: slategray;
 	text-align: center;
 }
 
@@ -12,11 +12,12 @@ h1 {
 }
 
 article {
-	background-color: honeydew;
+	background-color: aliceblue;
 }
 
 h2 {
-	color: cadetblue;
+	
+	color: cornflowerblue;
 	text-align: center;
 }
 
@@ -51,12 +52,12 @@ img {
 header,
 article {
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 }
 
 p,
 img {
-	padding: 5px;
+	margin: 20px;
 }
 
 @media screen and (max-width: 900px) {
