@@ -1,9 +1,9 @@
 header {
-	background-color: lightsteelblue;
+	background-color: darkseagreen;
 }
 
 h1 {
-	color: slategray;
+	color: seagreen;
 	text-align: center;
 }
 
@@ -12,18 +12,18 @@ h1 {
 }
 
 article {
-	background-color: aliceblue;
+	background-color: honeydew;
 }
 
 h2 {
-	
-	color: cornflowerblue;
+	color: cadetblue;
 	text-align: center;
 }
 
 .c2 {
 	color: gray;
 	text-align: center;
+	margin: 20px;
 }
 
 section {
@@ -33,6 +33,8 @@ section {
 	border: 2px dotted silver;
 	margin-bottom: 10px;
 	line-height: 28px;
+	border-radius: 20px;
+	padding: 15px;
 }
 
 h3 {
@@ -47,16 +49,14 @@ img {
 }
 
 header,
-article,
-section {
+article {
 	border-radius: 20px;
-	padding: 10px;
+	padding: 5px;
 }
 
 p,
 img {
 	padding: 5px;
-	margin: 15px;
 }
 
 @media screen and (max-width: 900px) {
