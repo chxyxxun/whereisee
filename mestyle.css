@@ -70,4 +70,7 @@ img {
 	h3 {
 		writing-mode: horizontal-tb;
 	}
+	p {
+		margin: 5px;
+	}
 }
