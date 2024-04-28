@@ -71,9 +71,8 @@ img {
 	}
 	h3 {
 		writing-mode: horizontal-tb;
-		margin-left: 25px;
 	}
 	p {
-		margin: 10px;
+		margin: 5px;
 	}
 }
