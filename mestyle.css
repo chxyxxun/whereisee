@@ -59,7 +59,10 @@ img {
 
 @media screen and (max-width: 600px) {
 	img {
-		width: 350px;
+		width: 400px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 	section {
 		display: block;
