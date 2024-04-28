@@ -66,13 +66,8 @@ img {
 	}
 	section {
 		display: block;
-		word-break: keep-all;
-		border: 2px dotted silver;
-		margin-bottom: 10px;
-		line-height: 28px;
 	}
 	h3 {
-		color: dimgray;
 		writing-mode: horizontal-tb;
 	}
 }
