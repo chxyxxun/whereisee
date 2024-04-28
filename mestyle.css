@@ -23,7 +23,6 @@ h2 {
 .c2 {
 	color: gray;
 	text-align: center;
-	margin: 20px;
 }
 
 section {
@@ -51,7 +50,7 @@ img {
 header,
 article {
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 }
 
 p,
@@ -71,8 +70,5 @@ img {
 	}
 	h3 {
 		writing-mode: horizontal-tb;
-	}
-	p {
-		margin: 5px;
 	}
 }
