@@ -16,7 +16,6 @@ article {
 }
 
 h2 {
-	
 	color: cadetblue;
 	text-align: center;
 }
@@ -60,6 +59,17 @@ img {
 
 @media screen and (max-width: 600px) {
 	img {
-		width: 150px;
+		width: 300px;
+	}
+	section {
+		display: block;
+		word-break: keep-all;
+		border: 2px dotted silver;
+		margin-bottom: 10px;
+		line-height: 28px;
+	}
+	h3 {
+		color: dimgray;
+		writing-mode: horizontal-tb;
 	}
 }
