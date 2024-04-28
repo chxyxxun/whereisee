@@ -59,6 +59,7 @@ img {
 
 @media screen and (max-width: 900px) {
 	img {
+		width: 320px;
 		display: block;
 	    margin-left: auto;
 	    margin-right: auto;
