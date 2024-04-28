@@ -56,6 +56,7 @@ section {
 p,
 img {
 	padding: 5px;
+	margin: 15px;
 }
 
 @media screen and (max-width: 900px) {
@@ -70,5 +71,9 @@ img {
 	}
 	h3 {
 		writing-mode: horizontal-tb;
+		margin-left: 25px;
+	}
+	p {
+		margin: 10px;
 	}
 }
