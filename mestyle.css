@@ -1,94 +1,39 @@
-* {
-	padding: 5px;
-	margin: 5px;
-	text-decoration: none;
-	color: black;
-}
-
-.bg {
-	background-color: mistyrose;
-}
-
 header {
-	writing-mode: vertical-lr;
-	position: fixed;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	background-color: darkseagreen;
+	margin-bottom: 30px;
 }
 
-h1,
-.d1 {
-	background: linear-gradient(pink,mistyrose);
-	width: 50px;
-	height:150px;
-	border-radius: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.d1:hover {
-	background: black;
-	color: white;
+h1 {
+	color: seagreen;
+	text-align: center;
 }
 
 .c1 {
-	color: gray;
-	font-size: 18px;
-}
-
-ul {
-	display: flex;
-	padding-left: 100px;
-	margin-top: px;
-}
-
-li {
-	list-style: none;
-	height:30px;
-	width: 50vw;
-	border-radius: 100px;
-	background: radial-gradient(white, mistyrose);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.d2:hover {
-	height:30px;
-	width: 50vw;
-	border-radius: 100px;
-	background: mistyrose;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	color: white;
 }
 
 article {
-	margin-left: 100px;
-	margin-bottom: 50px;
-	margin-top: 50px;
+	background-color: honeydew;
+	margin-bottom: 15px;
 }
 
 h2 {
-	color: black;
+	color: cadetblue;
 	text-align: center;
-	padding-top:px;
 }
 
 .c2 {
 	color: gray;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 section {
-	box-shadow: 0px 0px 30px 0px white;
 	display: flex;
 	align-items: flex-start;
 	word-break: keep-all;
-	margin-bottom: 15px;
+	border: 2px dotted silver;
+	margin-bottom: 10px;
 	line-height: 28px;
 	border-radius: 20px;
 	padding: 15px;
@@ -105,6 +50,12 @@ img {
 	width: 350px;
 }
 
+header,
+article {
+	border-radius: 20px;
+	padding: 10px;
+}
+
 p,
 img,
 h3 {
@@ -115,33 +66,7 @@ p {
 	margin-bottom: 20px;
 }
 
-footer {
-	text-align: right;
-	font-size: 12px;
-}
-
 @media screen and (max-width: 900px) {
-	h1,
-	.d1 {
-		font-size: 25px;
-		width: 43px;
-		height:130px;
-	}
-
-	.c1 {
-		font-size: 16px;
-	}
-
-	ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding-left: 100px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 15px;
-	}
-
 	img {
 		width: 300px;
 		display: block;
@@ -149,11 +74,9 @@ footer {
 	    margin-right: auto;
 	    margin-bottom: 15px;
 	}
-
 	section {
 		display: block;
 	}
-
 	h3 {
 		writing-mode: horizontal-tb;
 	}
