@@ -1,6 +1,7 @@
 * {
 	padding: 5px;
 	margin: 5px;
+	list-style: none;
 }
 
 .bg {
@@ -19,40 +20,80 @@ h1 {
 	color: silver;
 }
 
-li {
-	list-style: none;
+.d1 {
+	left: 180px;
+	width: 150px;
+	height: 150px;
+}
+
+.d2 {
+	left: 360px;
+	width: 150px;
+	height: 150px;
+}
+
+.d3 {
+	left: 540px;
+	width: 150px;
+	height: 150px;
+}
+
+.d1,
+.d2,
+.d3 {
 	writing-mode: vertical-lr;
 	text-orientation: upright;
 	color: white;
 	background: linear-gradient(90deg, black 13%, pink);
-}
-
-.w1 {
 	position: absolute;
-	left: 180px;
-	width: 120px;
-	height: 120px;
+	top: 200px;
 	border-radius: 100px;
 }
 
-.w2 {
-	position: absolute;
-	left: 360px;
-	width: 180px;
-	height: 180px;
-	border-radius: 100px;
+.d1:hover,
+.d2:hover,
+.d3:hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: pink;
+	background: black;
+	box-shadow: 5px 5px 30px 0px pink;
 }
 
 @media screen and (max-width: 900px) {
-	.w1 {
+	.d1 {
 		left: 160px;
-		width: 100px;
-		height: 100px;
+		width: 120px;
+		height: 120px;
 	}
-	.w2 {
-		top: 340px;
+	.d1:hover {
 		left: 160px;
-		width: 160px;
-		height: 160px;
+		width: 120px;
+		height: 120px;
+	}
+	.d2 {
+		top: 360px;
+		left: 160px;
+		width: 120px;
+		height: 120px;
 		}
+	.d2:hover {
+		top: 360px;
+		left: 160px;
+		width: 120px;
+		height: 120px;
+	}
+	.d3 {
+		top: 520px;
+		left: 160px;
+		width: 120px;
+		height: 120px;
+	}
+	.d3:hover {
+		top: 530px;
+		left: 160px;
+		width: 120px;
+		height: 120px;
+	}
 }
