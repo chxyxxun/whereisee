@@ -161,4 +161,11 @@ footer {
 	h3 {
 		writing-mode: horizontal-tb;
 	}
+	ul,
+	p {
+		font-size: 13px;
+	}
+	h2 {
+		font-size: 20px;
+	}
 }
