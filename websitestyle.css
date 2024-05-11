@@ -78,17 +78,12 @@ li {
 	justify-content: center;
 }
 
-.d3:hover {
-	text-decoration: underline;
-	text-underline-offset: 5px;
-}
-
 p {
 	color: dimgray;
 }
 
 .fs {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 h2 {
@@ -96,6 +91,15 @@ h2 {
 	margin-left: 270px;
 	margin-bottom: px;
 	font-size: 28px;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+
+.d3:hover {
+	color: gray;
+	text-decoration: underline;
+	text-decoration-color: gray;
+	text-underline-offset: 5px;
 }
 
 article {
@@ -118,10 +122,6 @@ section {
 img {
 	width: 40vw;
 	padding: 20px;
-}
-
-.fs {
-	font-size: 18px;
 }
 
 footer {
@@ -168,8 +168,6 @@ footer {
 		font-size: 17px;
 	}
 
-	
-
 	ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -188,6 +186,17 @@ footer {
 
 	h2 {
 		color: white;
+		font-size: 24px;
+		text-decoration: underline;
+	    text-underline-offset: 5px;
+    }
+
+    .d3:hover {
+		color: gray;
+		text-decoration: underline;
+		text-decoration-color: gray;
+	    text-underline-offset: 5px;
+
 	}
 
 	section {
