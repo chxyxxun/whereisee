@@ -70,37 +70,37 @@ h1 {
 	}
 	.d1 {
 		left: 160px;
-		width: 130px;
-		height: 130px;
+		width: 150px;
+		height: 150px;
 	}
 	.d1:hover {
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 150px;
+		height: 150px;
 	}
 	.d2 {
-		top: 360px;
+		top: 380px;
 		left: 160px;
-		width: 140px;
-		height: 140px;
+		width: 150px;
+		height: 150px;
 		}
 	.d2:hover {
-		top: 360px;
+		top: 380px;
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 150px;
+		height: 150px;
 	}
 	.d3 {
-		top: 520px;
+		top: 560px;
 		left: 160px;
 		width: 150px;
 		height: 150px;
 	}
 	.d3:hover {
-		top: 530px;
+		top: 560px;
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 150px;
+		height: 150px;
 	}
 	nav {
 		margin-bottom: 15px;
