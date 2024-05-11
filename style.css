@@ -70,8 +70,8 @@ h1 {
 	}
 	.d1 {
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 130px;
+		height: 130px;
 	}
 	.d1:hover {
 		left: 160px;
@@ -81,8 +81,8 @@ h1 {
 	.d2 {
 		top: 360px;
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 140px;
+		height: 140px;
 		}
 	.d2:hover {
 		top: 360px;
@@ -93,8 +93,8 @@ h1 {
 	.d3 {
 		top: 520px;
 		left: 160px;
-		width: 120px;
-		height: 120px;
+		width: 150px;
+		height: 150px;
 	}
 	.d3:hover {
 		top: 530px;
