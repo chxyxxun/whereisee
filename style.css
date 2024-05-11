@@ -32,15 +32,8 @@ h1 {
 	height: 150px;
 }
 
-.d3 {
-	left: 580px;
-	width: 150px;
-	height: 150px;
-}
-
 .d1,
-.d2,
-.d3 {
+.d2 {
 	writing-mode: vertical-lr;
 	text-orientation: upright;
 	color: white;
@@ -51,8 +44,7 @@ h1 {
 }
 
 .d1:hover,
-.d2:hover,
-.d3:hover {
+.d2:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -86,18 +78,6 @@ h1 {
 		}
 	.d2:hover {
 		top: 380px;
-		left: 160px;
-		width: 150px;
-		height: 150px;
-	}
-	.d3 {
-		top: 560px;
-		left: 160px;
-		width: 150px;
-		height: 150px;
-	}
-	.d3:hover {
-		top: 560px;
 		left: 160px;
 		width: 150px;
 		height: 150px;
