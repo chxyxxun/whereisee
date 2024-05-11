@@ -168,11 +168,23 @@ footer {
 		text-align: center;
 	}
 
-	li {
-		background: white;
-		text-align: center;
+	
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		font-size: 15px;
 	}
 
+	li {
+		background: white;
+		height: 27px;
+		width: 30vw;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
 
 	h2 {
 		color: white;
