@@ -54,6 +54,7 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .d2:hover {
@@ -158,6 +159,7 @@ footer {
 	li {
 		height:27px;
 		width: 30vw;
+		padding: 12px;
 	}
 
 	img {
