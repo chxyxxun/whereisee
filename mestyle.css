@@ -55,6 +55,13 @@ li {
 	justify-content: center;
 }
 
+.d2:hover {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 article {
 	margin-left: 100px;

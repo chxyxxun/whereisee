@@ -3,14 +3,26 @@
 	margin: 5px;
 	list-style: none;
 	text-decoration: none;
+	color: black;
+	word-break: keep-all;
+}
+
+.bg {
+		background-color: white;
+	}
+
+header {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.d1,
+.d2 {
 	color: white;
 }
 
-
-
 .d1 {
-	background: red;
-	color: white;
+	background: black;
 	width: 200px;
 	height:200px;
 	border-radius: 200px;
@@ -26,17 +38,16 @@
 
 .d1:hover {
 	background: white;
-	color: red;
-	border: 2.5px solid red;
-
+	color: black;
+	border: 2.5px solid black;
 }
 
 .c1 {
 	color: gray;
-	
+	text-align: center;
 	font-size: 19px;
 	margin-left: 270px;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 
@@ -51,15 +62,29 @@ li {
 	height:30px;
 	width: 50vw;
 	border-radius: 100px;
-	background: red;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.d2:hover {
+	text-decoration: underline;
+	text-underline-offset: 4px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
+.d3:hover {
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
 
 p {
-	color: gray;
+	color: dimgray;
 }
 
 .fs {
@@ -67,9 +92,9 @@ p {
 }
 
 h2 {
-	color: red;
+	color: black;
 	margin-left: 270px;
-	margin-bottom: 20px;
+	margin-bottom: px;
 	font-size: 28px;
 }
 
@@ -80,10 +105,9 @@ article {
 
 section {
 	align-items: flex-start;
-	word-break: keep-all;
-	border: 2.5px solid red;
+	line-height: 35px;
+	border: 2.5px solid black;
 	margin-bottom: 15px;
-	line-height: 28px;
 	border-radius: 100px;
 	padding: 30px;
 	margin-left: 270px;
@@ -96,28 +120,48 @@ img {
 	padding: 20px;
 }
 
+.fs {
+	font-size: 18px;
+}
+
 footer {
-	text-align: right;
+	text-align: center;
+	margin-left: 270px;
 	font-size: 12px;
 }
 
+
+
+
 @media screen and (max-width: 900px) {
 	.bg {
-		background-color: red;
+		background-color: black;
 	}
+
 	* {
-		color: red;
+		color: white;
+	}
+
+	.d1,
+	.d2 {
+		color: black;
 	}
 
 	.d1 {
 		background: white;
-	    color: red;
-		font-size: 22px;
+	    color: black;
+		font-size: 24px;
 		width: 150px;
 		height:150px;
 		border-radius: 200px;
 		text-align: center;
 		position: static;
+	}
+
+	.d1:hover {
+		background: black;
+		color: white;
+		border: 0px;
 	}
 
 	.c1 {
@@ -126,6 +170,7 @@ footer {
 
 	li {
 		background: white;
+		text-align: center;
 	}
 
 
@@ -139,6 +184,8 @@ footer {
 
 	img {
 		width: 350px;
+		box-shadow: 0px 0px 20px 0px white;
+		padding: 0px;
 	}
 
 	.c1,
@@ -163,6 +210,12 @@ footer {
 
 	.fs {
 		font-size: 16px;
+	}
+
+	footer {
+		text-align: center;
+		margin-left: 0px;
+		font-size: 12px;
 	}
 
 }
