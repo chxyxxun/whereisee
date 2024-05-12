@@ -183,4 +183,8 @@ footer {
 	h3 {
 		writing-mode: horizontal-tb;
 	}
+
+	footer {
+		text-align: center;
+	}
 }
