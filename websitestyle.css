@@ -43,9 +43,8 @@ header {
 
 .back {
 	position: fixed;
-	margin-top: 620px;
+	margin-top: 0px;
 	color: white;
-	background: ;
 	font-size: 25px;
 }
 
@@ -169,7 +168,7 @@ footer {
 
 	.back {
 		margin-left: 0px;
-		margin-top: 420px;
+		top: 15px;
 		color: black;
 		background: white;
 		height: 25px;
@@ -200,13 +199,15 @@ footer {
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	li {
 		height: 20px;
 		width: 30vw;
 		padding: 12px;
+		padding-top: 18px;
+		padding-bottom: 18px;
 		margin-bottom: 10px;
 	}
 
@@ -232,10 +233,12 @@ footer {
 	}
 
 	img {
-		width: 70vw;
+		width: 60vw;
 		display: block;
 	    margin-left: auto;
 	    margin-right: auto;
+	    padding: 0px;
+	    margin-top: 30px;
 	}
 
 	.fs {
