@@ -68,8 +68,10 @@ nav {
 
 
 li {
-	margin: 12px;
+	margin: 15px;
 	padding: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	background: white;
 	height:30px;
 	width: 190px;
