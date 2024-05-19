@@ -47,7 +47,6 @@ header {
 	top: 20px;
 	color: white;
 	
-	
 }
 
 .back:hover {
@@ -63,20 +62,22 @@ header {
 }
 
 nav {
-	margin-top: 150px;
-	margin-left: 10px;
+	margin-top: 130px;
+	margin-left: 25px;
 	position: fixed;
 }
 
 
 li {
+	font-size: 15px;
 	margin: 15px;
+	margin-bottom: 28px;
 	padding: 8px;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	background: white;
 	height:30px;
-	width: 190px;
+	width: 150px;
 	border-radius: 100px;
 	text-align: center;
 	display: flex;
@@ -198,6 +199,9 @@ footer {
 
 	nav {
 		position: static;
+		margin-top: 100px;
+		margin-bottom: 120px;
+
 	}
 
 	ul {
