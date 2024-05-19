@@ -168,7 +168,7 @@ footer {
 
 	.back {
 		margin-left: 0px;
-		margin-top: 0px;
+		top: 15px;
 		color: black;
 		background: white;
 		height: 25px;
@@ -199,7 +199,7 @@ footer {
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	li {
